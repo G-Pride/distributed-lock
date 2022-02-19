@@ -1,2 +1,8 @@
 server:
   port: 8085
+
+#将redisson相关配置交由redisson.yml
+spring:
+  redis:
+    redisson:
+      file: classpath:redisson.yml
